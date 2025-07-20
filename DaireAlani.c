@@ -1,12 +1,27 @@
 #include<stdio.h>
 
-int main() 
+const PI = 3.1415926535;
+
+double pi(int deger)
 {
-    const PI = 3.1415926535;
-    char cev_cap = 0;
+
+}
+
+void secim()
+{
+    char cev_alan;
 
     printf("Dairenin (c)evresini mi yoksa (a)lanını mı öğrenmek istersiniz?  :  ");
-    scanf("%d", &cev_cap);
-    
-    shwich
+    scanf("%d", &cev_alan);
+
+
+    switch (cev_alan){
+        case 'c':
+            pi()
+    }
+}
+
+int main() 
+{
+    secim();
 }
