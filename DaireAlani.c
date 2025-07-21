@@ -22,7 +22,7 @@ int main()
     switch (cev_alan){
         case 'c':
             printf("Çevre: %lf\n", 2 * PI * r);
-            exit(0);
+            exit(1);
             break;
         
         case 'a':
