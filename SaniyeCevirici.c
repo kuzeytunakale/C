@@ -10,10 +10,11 @@ int main() {
         second = inp_second % 60;
         minute = inp_second / 60;
         hour = minute / 60;
+        minute = minute % 60;
         
 
-        printf("Saat.Dakika.Saniye = %d.%d.%d\n", hour, minute, second);
-777
+        printf("%d saat %d dakika %d saniye\n\n", hour, minute, second);
+
     }
 
 }
